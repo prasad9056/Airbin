@@ -11,7 +11,9 @@ const{listingSchema,reviewSchema}=require("./schema.js");
 const Review=require('./models/review.js');
 
 
-const MONGO_URI="mongodb://localhost:27017";
+// const MONGO_URI="mongodb://localhost:27017";
+const MONGO_URI = "mongodb://127.0.0.1:27017/test";
+// const MONGO_URI = "mongodb://127.0.0.1:27017/airbin";
 
 main()
 .then(()=>{
